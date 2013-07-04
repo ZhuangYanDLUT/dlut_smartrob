@@ -1,0 +1,29 @@
+<package>
+  <name>dlut_smartrob</name>
+  <version>0.0.0</version>
+  <description>ROS Nodes developed on SmartROB at DaLian University Of Technology.</description>
+
+
+  <author>Zhuang Yan</author>
+  <author>Yan Fei</author>
+  <author>Dong Bing Bing</author>
+  <author>Wu Nai Liang</author>
+  <author email="zhuang@dlut.edu.cn">Zhuang Yan</author>
+  <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
+  <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
+  <license>BSD</license>
+  
+  <url type="website">http://www.ros.org/wiki/dlut_smartrob</url>
+  <url type="repository">https://github.com/ZhuangYanDLUT/dlut_smartrob.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!-- Old stack contents -->
+  <run_depend>dlut_move_base</run_depend>
+  <run_depend>dlut_pc_odom</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
