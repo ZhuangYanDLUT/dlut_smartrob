@@ -5,15 +5,15 @@
   <description>The dlut_pc_odom package</description>
 
 
-  <author>Zhuang Yan</author>
+  <author email="zhuang@dlut.edu.cn">Zhuang Yan</author>
   <author>Yan Fei</author>
   <author>Dong Bing Bing</author>
-  <author email="zhuang@dlut.edu.cn">Zhuang Yan</author>
+
   <maintainer email="zhuang@dlut.edu.cn">Zhuang Yan</maintainer>
   <maintainer email="wunailiang@gmail.com">Wu Nai Liang</maintainer>
   <license>BSD</license>
 
-  <url type="website">http://ros.org/wiki/dlut_smartrob</url>
+  <url type="website">http://ros.org/wiki/dlut_pc_odom</url>
   <url type="repository">https://github.com/ZhuangYanDLUT/dlut_smartrob.git</url>
 
 
