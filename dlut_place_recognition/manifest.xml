@@ -1,0 +1,20 @@
+<package>
+  <description brief="dlut_place_recognition">
+
+     dlut_place_recognition
+
+  </description>
+  <author>Zhuang Yan,Yan Fei,Li Qinghua/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dlut_place_recognition</url>
+  <depend package="roscpp"/>
+  <depend package="pcl"/>
+  <depend package="opencv2"/>
+
+  <rosdep name="libqt4-dev"/>
+  <rosdep name="libqt4-opengl-dev"/>
+
+</package>
+
+
