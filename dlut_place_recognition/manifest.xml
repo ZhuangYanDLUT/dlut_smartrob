@@ -1,7 +1,8 @@
 <package>
   <description brief="dlut_place_recognition">
 
-     dlut_place_recognition
+     This package provides a novel 3D-laser-based indoor place recognition method to deal 
+     with the random disturbances caused by unexpected movements of people and other objects.
 
   </description>
   <author>Qinghua Li, Yan Zhuang, Fei Yan</author>
