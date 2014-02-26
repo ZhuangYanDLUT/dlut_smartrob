@@ -4,7 +4,7 @@
      dlut_place_recognition
 
   </description>
-  <author>Qinghua Li, Yan Zhuang(Zhuang@dlut.edu.cn), Fei Yan</author>
+  <author>Qinghua Li, Yan Zhuang, Fei Yan</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/dlut_place_recognition</url>
