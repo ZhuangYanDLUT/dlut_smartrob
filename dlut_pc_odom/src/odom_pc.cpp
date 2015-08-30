@@ -49,6 +49,7 @@
 #include <pcl_ros/point_cloud.h>
 #include <pcl/point_types.h>
 #include "pcl/io/pcd_io.h"
+#include <pcl_conversions/pcl_conversions.h>
 
 #define PAI 3.1415926
 
@@ -212,7 +213,7 @@ void PointCloudOdom::scanCallBack(const sensor_msgs::LaserScan &ls)
       if(laser_seq_%num_per_cloud_ == 0)
       {
         final->points.clear();
-        final->header.stamp = ros::Time::now();
+        pcl_conversions::toPCL(ros::Time::now(), final->header.stamp);
         final->header.frame_id = "pch_frame";    
       }
 
